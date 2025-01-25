@@ -23,7 +23,7 @@ def get_requirements()->List[str]:
                 if requirement and requirement!= '-e .':
                     requirement_lst.append(requirement)
     except FileNotFoundError:
-        print("requirements.txt file not found")
+        print("requirements.txt file not found") 
         
     return requirement_lst
 # print(get_requirements())
