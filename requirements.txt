@@ -3,10 +3,17 @@ pandas
 numpy
 pymongo
 certifi
-# pymongo[src]
+pymongo[srv]==3.6
 # mlflow
 # scikit-learn
 # pyaml
 
 
 # -e .
+
+
+
+
+
+# password 
+# AJuM5GYkZQMyHvC0
