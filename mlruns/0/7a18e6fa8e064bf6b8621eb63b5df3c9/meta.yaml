@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ccnt/Videos/Udemy%20Kursus/Network%20Security%20System/mlruns/0/7a18e6fa8e064bf6b8621eb63b5df3c9/artifacts
+end_time: 1738688066874
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a18e6fa8e064bf6b8621eb63b5df3c9
+run_name: puzzled-pig-517
+run_uuid: 7a18e6fa8e064bf6b8621eb63b5df3c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738688061583
+status: 3
+tags: []
+user_id: ccnt
