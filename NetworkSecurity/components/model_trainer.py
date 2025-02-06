@@ -7,8 +7,6 @@ from NetworkSecurity.logging.logger import logging
 from NetworkSecurity.entity.artifact_entity import DataTransformationArtifact,ModelTrainerArtifact
 from NetworkSecurity.entity.config_entity import ModelTrainerConfig
 
-
-
 from NetworkSecurity.utils.ml_utils.model.estimator import NetworlModel
 from NetworkSecurity.utils.main_utils.utils import save_object,load_object
 from NetworkSecurity.utils.main_utils.utils import load_numoy_array_data, evaluate_models
@@ -26,7 +24,7 @@ from sklearn.ensemble import (
 )
 
 import mlflow
-# from urllib.parse import urlparse
+from urllib.parse import urlparse
 
 import dagshub
 dagshub.init(repo_owner='muogo', repo_name='NetworkSecurity', mlflow=True)
@@ -123,6 +121,7 @@ class ModelTrainer:
 
         Network_Model=NetworlModel(preprocessor=preprocessor,model=best_model)
         save_object(self.model_trainer_config.trained_model_file_path,obj=NetworlModel)
+        
         #model pusher
         save_object("final_model/model.pkl",best_model)
         

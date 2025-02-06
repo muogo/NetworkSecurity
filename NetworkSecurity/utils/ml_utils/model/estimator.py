@@ -1,19 +1,18 @@
-from NetworkSecurity.constant.traning_pipeline import SAVED_MODEL_DIR, MODEL_FILE_NAME
+from NetworkSecurity.constant.traning_pipeline import SAVED_MODEL_DIR,MODEL_FILE_NAME
 
 import os
 import sys
 
 from NetworkSecurity.exception.exception import NetworkSecurityException
-from NetworkSecurity.logging.logger import logging  
-
+from NetworkSecurity.logging.logger import logging
 
 class NetworlModel:
-    def __init__(self, preprocessor, model):
+    def __init__(self,preprocessor,model):
         try:
             self.preprocessor = preprocessor
             self.model = model
         except Exception as e:
-            raise NetworkSecurityException(e, sys)
+            raise NetworkSecurityException(e,sys)
     
     def predict(self,x):
         try:
@@ -21,5 +20,4 @@ class NetworlModel:
             y_hat = self.model.predict(x_transform)
             return y_hat
         except Exception as e:
-            raise NetworkSecurityException(e, sys)
-        
+            raise NetworkSecurityException(e,sys)

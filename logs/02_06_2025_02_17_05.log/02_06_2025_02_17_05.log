@@ -1,0 +1,11 @@
+[ 2025-02-06 02:17:13,521 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-06 02:17:13,536 ] 107 dagshub - INFO - Accessing as muogo
+[ 2025-02-06 02:17:13,933 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muogo/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-02-06 02:17:14,251 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-06 02:17:14,255 ] 107 dagshub - INFO - Initialized MLflow to track repo "muogo/NetworkSecurity"
+[ 2025-02-06 02:17:14,257 ] 107 dagshub - INFO - Repository muogo/NetworkSecurity initialized!
+[ 2025-02-06 02:17:15,242 ] 114 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+

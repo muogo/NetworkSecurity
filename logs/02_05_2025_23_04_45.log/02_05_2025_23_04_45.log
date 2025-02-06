@@ -1,0 +1,6 @@
+[ 2025-02-05 23:04:51,825 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-05 23:04:51,835 ] 107 dagshub - INFO - Accessing as muogo
+[ 2025-02-05 23:04:52,216 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muogo/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-02-05 23:04:52,516 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-02-05 23:04:52,520 ] 107 dagshub - INFO - Initialized MLflow to track repo "muogo/NetworkSecurity"
+[ 2025-02-05 23:04:52,521 ] 107 dagshub - INFO - Repository muogo/NetworkSecurity initialized!
